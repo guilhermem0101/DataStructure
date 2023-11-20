@@ -1,11 +1,12 @@
-def sequential_search(a_list, item):
-    pos = 0
+def sequential_search(lista, item):
+    i = 0
     found = False
-    while pos < len(a_list) and not found:
-        if a_list[pos] == item:
+    #Enquanto i é menor que o tamanho da lista
+    while i < len(lista) and not found:
+        if lista[i] == item:
             found = True
         else:
-             pos = pos + 1
+             i = i + 1
 
     return found
 
