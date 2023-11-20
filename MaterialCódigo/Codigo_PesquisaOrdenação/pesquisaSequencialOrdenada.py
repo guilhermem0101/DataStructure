@@ -2,6 +2,7 @@ def ordered_sequential_search(a_list, item):
     i = 0
     found = False
     stop = False
+    # Enquanto (i é menor que o tamanho da lista) e (found = False) e (stop = False)
     while i < len(a_list) and not found and not stop:
         if a_list[i] == item:
             found = True
